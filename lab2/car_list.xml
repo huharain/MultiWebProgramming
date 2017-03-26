@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<car_list>
+	<car>
+		<name>1988 Nissan Sunny</name>
+		<mileage>A lot but in good condition</mileage>
+		<cc>1.5</cc>
+		<transmission>Manual</transmission>
+		<type>Sedan</type>
+		<location>Selangor - Petaling Jaya</location>
+		<price>RM 1000</price>
+		<dealer>Fadil</dealer>
+		<image>images/car/1988 nissan sunny.jpg</image>
+	</car>
+	
+	<car>
+		<name>2012 Mercedes C180</name>
+		<mileage>LOW MILEAGE</mileage>
+		<cc>1.8</cc>
+		<transmission>Automatic</transmission>
+		<type>Sedan</type>
+		<location>Cheras - Kuala Lumpur</location>
+		<price>RM 116 000</price>
+		<dealer>Danny Lee</dealer>
+		<image>images/car/2012 mercedes c180.jpg</image>
+	</car>
+
+	<car>
+		<name>2012 Mercedes SLK200</name>
+		<mileage>LOW MILEAGE</mileage>
+		<cc>1.8</cc>
+		<transmission>Automatic</transmission>
+		<type>Coupe</type>
+		<location>Kuala Lumpur - Cheras</location>
+		<price>RM 159000</price>
+		<dealer>Canny Lee</dealer>
+		<image>images/car/2012 mercedes slk200.jpg</image>
+	</car>
+
+	<car>
+		<name>2016 Toyota Vellfire</name>
+		<mileage>LOW MILEAGE</mileage>
+		<cc>2.5</cc>
+		<transmission>Automatic</transmission>
+		<type>MPV</type>
+		<location>Kuala Lumpur - Old Klang Road</location>
+		<price>RM 287 700</price>
+		<dealer>Kent Car</dealer>
+		<image>images/car/2016 toyota velfire.jpg</image>
+	</car>
+
+	<car>
+		<name>2017 Isuzu D Max</name>
+		<mileage>LOW MILEAGE</mileage>
+		<cc>2.5</cc>
+		<transmission>Manual</transmission>
+		<type>Pick - Up</type>
+		<location>Selangor - Serdang</location>
+		<price>RM 79 000</price>
+		<dealer>Continental Top Motors</dealer>
+		<image>images/car/2017 isuzu d max.jpg</image>
+	</car>
+
+	<car>
+		<name>2003 Mitsubishi Airtrek</name>
+		<mileage>150000 - 159999</mileage>
+		<cc>2.0</cc>
+		<transmission>Automatic</transmission>
+		<type>SUV</type>
+		<location>Selangor - Puchong</location>
+		<price>RM 36800</price>
+		<dealer>Alan</dealer>
+		<image>images/car/mitsubishi airtrek.jpg</image>
+	</car>
+</car_list>

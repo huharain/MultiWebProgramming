@@ -1,0 +1,32 @@
+ <!DOCTYPE html>
+ <html>
+ <head>
+ <script src="js/jquery-3.1.1.min.js" type="text/javascript"></script>
+ <script>
+   $(document).ready(function()
+      {
+        $.get('car_list.xml', function(d){
+        $('body').append('<center> <h3> Car List </h3></center>');
+        $('body').append('<dl />');
+        $(d).find('cars').each(function(){
+            var $food = $(this); 
+            var name = $cars.find('name').text();
+            var price = $cars.find('price').text();
+            var description = $cars.find('description').text();
+            var calories = $cars.find('calories').text();
+            var image = $cars.find("image").text();
+            var html = '<center><table><tr> <td width = "50""><img height = "100" border = "1" src="' + image + '" > </td>';
+                html += '<td width = "500">';
+                html += '<p class="name">' + name + ' , ' + price + '</p>';
+                html += '<p> ' + description + '</p>' ;
+                html += '<p> Calories: ' + calories + '</p>' ;
+                html += '</td></table></center>';
+            $('dl').append($(html));       
+        });
+    });
+});
+</script>
+</head>
+<body>
+</body>
+</html>

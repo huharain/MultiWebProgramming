@@ -1,0 +1,32 @@
+/*Container CSS*/
+.container_car {
+	border-radius: 10px;
+	background-color: rgba(216, 216, 216, 0.2);
+	margin-top: 20px;
+}
+
+.container_car_spec [class*="col-"] {
+	border-style: none solid none none;
+	border-width: 3px;
+}
+
+.container_car_spec [class*="col-"]:first-child {
+	text-align: left;
+}
+
+.container_car_spec [class*="col-"]:last-child {
+	border-style: none;
+}
+
+/*set image sizes*/
+.img_car_big {
+	min-width: 90%;
+	max-width: 100%;
+	height: auto;
+}
+ /*set header bar*/
+.header {
+	border-top: solid; 
+	border-top-width: 10px; 
+	padding-top: 20px;
+}
